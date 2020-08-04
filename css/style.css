@@ -1,0 +1,492 @@
+@font-face {
+	font-family: 'Conv_FuturaStd-Bold_0';
+	src: url('../fonts/FuturaStd-Bold_0.eot');
+	src: local('☺'), url('../fonts/FuturaStd-Bold_0.woff') format('woff'), url('../fonts/FuturaStd-Bold_0.ttf') format('truetype'), url('../fonts/FuturaStd-Bold_0.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Conv_FuturaStd-BoldOblique_0';
+	src: url('../fonts/FuturaStd-BoldOblique_0.eot');
+	src: local('☺'), url('../fonts/FuturaStd-BoldOblique_0.woff') format('woff'), url('../fonts/FuturaStd-BoldOblique_0.ttf') format('truetype'), url('../fonts/FuturaStd-BoldOblique_0.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Conv_FuturaStd-BookOblique_0';
+	src: url('../fonts/FuturaStd-BookOblique_0.eot');
+	src: local('☺'), url('../fonts/FuturaStd-BookOblique_0.woff') format('woff'), url('../fonts/FuturaStd-BookOblique_0.ttf') format('truetype'), url('../fonts/FuturaStd-BookOblique_0.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Conv_FuturaStd-HeavyOblique_0';
+	src: url('../fonts/FuturaStd-HeavyOblique_0.eot');
+	src: local('☺'), url('../fonts/FuturaStd-HeavyOblique_0.woff') format('woff'), url('../fonts/FuturaStd-HeavyOblique_0.ttf') format('truetype'), url('../fonts/FuturaStd-HeavyOblique_0.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Conv_FuturaStd-Light_0';
+	src: url('../fonts/FuturaStd-Light_0.eot');
+	src: local('☺'), url('../fonts/FuturaStd-Light_0.woff') format('woff'), url('../fonts/FuturaStd-Light_0.ttf') format('truetype'), url('fonts/FuturaStd-Light_0.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Conv_FuturaStd-Medium_0';
+	src: url('../fonts/FuturaStd-Medium_0.eot');
+	src: local('☺'), url('../fonts/FuturaStd-Medium_0.woff') format('woff'), url('../fonts/FuturaStd-Medium_0.ttf') format('truetype'), url('../fonts/FuturaStd-Medium_0.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Conv_FuturaStd-MediumOblique_0';
+	src: url('../fonts/FuturaStd-MediumOblique_0.eot');
+	src: local('☺'), url('../fonts/FuturaStd-MediumOblique_0.woff') format('woff'), url('../fonts/FuturaStd-MediumOblique_0.ttf') format('truetype'), url('../fonts/FuturaStd-MediumOblique_0.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+* {
+	padding: 0;
+	margin-bottom: 0;
+	margin-top: 0;
+	margin-left: 0;
+	margin-right: 0;
+	text-decoration: none;
+	list-style: none;
+}
+body {
+	font-family: 'Conv_FuturaStd-Light_0';
+	font-size: 27px;
+	color: #474747;
+}
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: 13px;
+}
+h2 {
+	font-family: 'Conv_FuturaStd-Light_0';
+    text-transform: uppercase;
+    font-size: 52px;
+    letter-spacing: 4px;
+	line-height: 80px;
+}
+h3 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 76px;
+	color: #0099C0;
+	text-transform: uppercase;
+}
+h4 {
+	font-family: 'Conv_FuturaStd-HeavyOblique_0';
+	font-size: 27px;
+}
+h5 {
+	font-family: 'Conv_FuturaStd-Light_0';
+	font-size: 37px;
+	color: #000;
+}
+img {
+	max-width: 100%;
+}
+.p01 {
+	font-family: 'Conv_FuturaStd-BookOblique_0';
+	font-size: 28px;
+	color: #474747;
+}
+.p02 {
+	font-family: 'Conv_FuturaStd-Medium_0';
+	font-size: 30px;
+	color: #15A7CE;
+}
+.p03 {
+	font-family: 'Conv_FuturaStd-MediumOblique_0';
+	font-size: 27px;
+}
+.p04 {
+	font-family: 'Conv_FuturaStd-BoldOblique_0';
+	font-size: 27px;
+}
+.bg-celeste {
+	color: #15A7CE;
+}
+.bg-azul {
+	color: #1C3D75;
+}
+/*Header*/
+header {
+	background-color: #E8ECEE;
+	transition: all 0.7s;
+	position: absolute;
+	z-index: 10;
+    left: 0;
+    right: 0;
+    top: 0;
+    padding: 10px 0px;
+}
+header .contenedor {
+	max-width: 1640px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+header nav ul {
+	display: flex;
+    align-items: center;
+}
+header nav ul li { 
+    border-left: 3px solid #15A7CE;
+}
+header nav ul li:first-child {
+    border-left: 0;
+}
+header nav ul li a {
+	text-decoration: none;
+	font-family: 'Conv_FuturaStd-Medium_0';
+	font-size: 17px;
+	color: #000;
+	margin-right: 30px;
+    margin-left: 30px;
+}
+header nav ul li:last-child a {
+	margin-right: 0px;
+}
+header nav ul li {
+	display: inline;
+}
+header nav a:hover {    
+	font-family: 'Conv_FuturaStd-HeavyOblique_0';
+    color: #15A7CE;
+    text-decoration: none;
+}
+.header {
+	position: relative;
+}
+.navbar-toggler, .logo-mobile {
+	display: none;
+}
+.header {
+    padding-bottom: 173px;
+}
+/*Fin header*/
+/*Slider*/
+
+.carousel-indicators li {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-top: 0;
+    border-bottom: 0;
+	border-radius: 50%;
+	background-color: #DDDDDD;
+}
+.carousel-indicators .active {
+	opacity: inherit;
+	background: rgb(40,47,104);
+	background: -moz-linear-gradient(90deg, rgba(40,47,104,1) 0%, rgba(21,167,206,1) 100%);
+	background: -webkit-linear-gradient(90deg, rgba(40,47,104,1) 0%, rgba(21,167,206,1) 100%);
+	background: linear-gradient(90deg, rgba(40,47,104,1) 0%, rgba(21,167,206,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#282f68",endColorstr="#15a7ce",GradientType=1);
+}
+/*Fin slider*/
+/*Seccion tecnologia*/
+.tecnologia {
+	background: rgb(40,47,104);
+	background: -moz-linear-gradient(90deg, rgba(40,47,104,1) 0%, rgba(21,167,206,1) 100%);
+	background: -webkit-linear-gradient(90deg, rgba(40,47,104,1) 0%, rgba(21,167,206,1) 100%);
+	background: linear-gradient(90deg, rgba(40,47,104,1) 0%, rgba(21,167,206,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#282f68",endColorstr="#15a7ce",GradientType=1);
+}
+.cont-tecnologia {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding-top: 50px;
+} 
+.cont-tecnologia article {
+	width: 50%;
+}
+.cont-tecnologia aside {
+	width: 50%;
+	padding-top: 30px;
+}
+.cont-tecnologia h1, .cont-tecnologia h2 {
+	color: #fff;
+}
+/*Fin de seccion tecnologia*/
+/*Sección Clientes*/
+.clientes {
+	background-image: url(../images/fondo-clientes.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.clientes .contenedor {
+	max-width: 1270px;
+	margin: 0 auto;
+	text-align: center;
+	padding: 70px 15px;
+}
+.clientes h2 {
+	font-size: 27px;
+	color: #2B2B2B;
+	line-height: inherit;
+}
+.iconos {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.iconos span {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+	align-items: center;
+	margin: 5px;
+}
+/*Fin sección Clientes*/
+/*Footer*/
+footer.container {
+	padding-bottom: 70px;
+}
+.barra-footer {
+	background: rgb(40,47,104);
+	background: -moz-linear-gradient(90deg, rgba(40,47,104,1) 0%, rgba(21,167,206,1) 100%);
+	background: -webkit-linear-gradient(90deg, rgba(40,47,104,1) 0%, rgba(21,167,206,1) 100%);
+	background: linear-gradient(90deg, rgba(40,47,104,1) 0%, rgba(21,167,206,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#282f68",endColorstr="#15a7ce",GradientType=1);
+	display: block;
+	text-align: center;
+	padding: 5px;
+}
+.barra-footer h2 {
+	color: #fff;
+	margin-bottom: 0;
+	font-size: 36px;
+	line-height: inherit;
+}
+footer .direccion {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 25px;
+}
+footer .direccion span {
+	display: inline-block;
+	padding-left: 8px;
+}
+footer .direccion p {
+	font-size: 25px;
+	font-family: 'Conv_FuturaStd-BookOblique_0';
+	color: #0F2F4C;
+	margin-bottom: 0;
+	line-height: 28px;
+}
+footer .redes {
+	padding-top: 25px;;
+}
+footer .redes a {
+	font-family: 'Conv_FuturaStd-Medium_0';
+	color: #0F2F4C;
+	font-size: 25px;
+	text-decoration: none;
+	padding-left: 8px;
+}
+footer .redes a:hover {
+	color: #15A7CE;
+}
+footer .redes span {
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+}
+footer .wp {
+	display: flex;
+	justify-content: center;
+    align-items: start;
+    padding-top: 25px;
+}
+footer .wp span {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+footer .wp a {
+	font-family: 'Roboto', sans-serif;
+	color: #0F2F4C;
+	font-size: 30px;
+	text-decoration: none;
+	padding-left: 8px;
+}
+footer .wp a:hover {
+	color: #15A7CE;
+}
+.diseño {
+	background-color: #EDEDED;
+	padding: 15px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+/*Fin footer*/
+/*Cobertura*/
+.cobertura {
+	background-image: url(../images/mapa.png);
+	background-repeat: no-repeat;
+	background-position: right;
+	padding-top: 110px;
+	padding-bottom: 350px;
+}
+.cobertura .contenedor {
+	max-width: 1350px;
+    padding: 0px 20px;
+	margin: 0 auto;
+}
+.contenedor-texto-cg {
+	max-width: 650px;
+}
+.contenedor-texto-latam {
+	max-width: 650px;
+}
+.contenedor-texto-latam .p02, .contenedor-texto-latam p{
+	display: inline;
+}
+.cobertura-geografica h3 {
+	padding-bottom: 60px;
+}
+.cobertura-geografica .p01 {
+	padding-bottom: 75px;
+}
+.cobertura-geografica .p02 {
+	padding-bottom: 85px;
+}
+.cobertura-latam h3 {
+	max-width: 1130px;
+	padding-top: 200px;
+	padding-bottom: 60px;
+}
+/*Fin de Cobertura*/
+/*Servicios y metodologias*/
+.servicios .contenedor {
+	max-width: 1350px;
+    padding: 0px 20px;
+	margin: 0 auto;
+	padding-top: 132px;
+}
+.que-hacemos {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.metodologia {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	padding-bottom: 180px;
+}
+.metodologia h4 {
+	padding-bottom: 20px;
+}
+.metodologia p  {
+    line-height: 45px;
+    color: #000;
+}
+.que-hacemos aside, .que-hacemos article, .metodologia aside, .metodologia article {
+	width: 50%;
+}
+.metodologia article {
+	padding-left: 20px;
+}
+.que-hacemos span {
+	display: flex;
+	justify-content: start;
+	align-items: flex-start;
+}
+.que-hacemos span img { 
+	padding-top: 1px;
+	padding-right: 10px;
+}
+.titulo {
+	font-size: 72px;
+	padding-bottom: 74px;
+}
+.que-hacemos {
+	padding-bottom: 190px;
+}
+
+/*Fin ervicios y metodologias*/
+/*Staff*/
+
+.staff {
+	padding-bottom: 200px;
+	max-width: 1350px;
+    padding: 0px 20px;
+	margin: 140px auto;
+}
+.staff span p{
+	display: inline;
+}
+.staff .p01 {
+	font-size: 27px;
+}
+.staff span {
+	padding-bottom: 90px;
+	display: block;
+}
+.staff .p03 {
+	font-size: 30px;
+}
+.texto-espaciado .p02 {
+	font-size: 27px;
+	letter-spacing: 7px;
+}
+.texto-espaciado .p03 {
+	letter-spacing: 5px;
+} 
+.staff .titulo h2 {
+	color: #474747;
+	font-size: 74px;
+	letter-spacing: 14px;
+}
+.staff .titulo {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	overflow: hidden;
+}
+.staff .titulo-staff {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.staff .titulo-staff p {
+	font-family: 'Conv_FuturaStd-HeavyOblique_0';
+	font-size: 27px;
+	color: #092B44;
+}
+.staff .titulo-staff img {
+	padding-right: 40px;
+}
+/*Fin staff*/
+/*Tecnologia*/
+.seccion-tecnologia {
+	background-color: #fff;
+	max-width: 1350px;
+	padding: 100px 20px 130px 20px;
+	margin: 0px auto;
+}
+.seccion-tecnologia .p03 {
+	font-size: 31px;
+	color: #333333;
+}
+/*Fin Tecnologia*/

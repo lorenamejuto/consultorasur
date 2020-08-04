@@ -1,0 +1,392 @@
+@media(max-width: 1500px) {
+    h3 {
+        font-size: 63px;
+    }
+    .p01 {
+        font-size: 24px;
+    }
+    .p02 {
+        font-size: 26px;
+    }
+    .cobertura-latam h3 {
+        padding-top: 100px;
+        max-width: 999px;
+    }
+    .cobertura {
+        padding-bottom: 200px;
+        background-size: 700px;
+    }
+    
+}
+@media(max-width: 1200px) {
+    header img {
+        width: 240px;
+    }        
+    .header {
+        padding-bottom: 128px;
+    }
+    .cont-tecnologia article img {
+        width: 370px;
+    }
+    .tecnologia h1 {
+        font-size: 50px;
+        letter-spacing: 11px;
+    }
+    .tecnologia h2 {
+        font-size: 40px;
+        letter-spacing: 3px;
+    }
+    .cont-tecnologia aside {
+        padding-top: 60px;
+    }
+    .iconos span {
+        width: 180px;
+        height: 180px;
+    }
+    footer .wp a {
+        font-size: 22px;
+    }
+    footer .redes a {
+        font-size: 22px;
+    }
+    footer .direccion p {
+        font-size: 22px;
+    }
+    h3 {
+        font-size: 53px;
+    }
+    .cobertura p {
+        font-size: 18px;
+    }
+    .p01 {
+        font-size: 18px;
+    }
+    .p02 {
+        font-size: 20px;
+    }
+    .cobertura-latam h3 {
+        padding-top: 100px;
+        max-width: 800px;
+    }
+    .cobertura {
+        padding-bottom: 150px;
+        background-size: 500px;
+    }
+    .contenedor-texto-cg {
+        max-width: 500px;
+    }
+    .cobertura-geografica h3 {
+        padding-bottom: 40px;
+    }
+    .cobertura-geografica .p01 {
+        padding-bottom: 40px;
+    }
+    .cobertura-geografica .p02 {
+        padding-bottom: 40px;
+    }
+    .titulo {
+        font-size: 52px;
+        padding-bottom: 50px;
+    }
+}
+@media(max-width: 992px) {
+    header img {
+        width: 200px;
+    } 
+    header nav ul li a {
+        font-size: 15px;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    .header {
+        padding-bottom: 110px;
+    }
+    .carousel-indicators li {
+        display: none;
+    }
+    .cont-tecnologia article img {
+        width: 300px;
+    }
+    .tecnologia h1 {
+        font-size: 35px;
+    }
+    .tecnologia h2 {
+        font-size: 27px;
+        line-height: 50px;
+    }
+    .cont-tecnologia aside {
+        padding-top: 30px;
+    }
+    footer .wp a {
+        font-size: 16px;
+    }
+    footer .redes a {
+        font-size: 15px;
+    }
+    footer .direccion p {
+        font-size: 15px;
+    }
+    .cobertura {
+        background-image: url(../images/mapa-opaco.png);
+    }
+    .titulo {
+        padding-bottom: 50px;
+        font-size: 40px;
+    }
+    .servicios .contenedor {
+        padding-top: 50px;
+    }
+    h4 {
+        font-size: 24px;
+    }
+    .metodologia p {
+        font-size: 20px;
+    }
+    .seccion-tecnologia .p03 {
+        font-size: 25px;
+    }
+
+}
+@media(max-width: 768px) {
+    header {
+        background-color: #E8ECEE;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        z-index: 9;
+    }
+    header .centrado {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .navbar-toggler {
+        display: inline;
+        margin-right: 20px;
+    }
+    .navbar-toggler {
+        display: block;
+        width: 20px;
+        height: 15px;
+        padding: 0;
+        position: absolute;
+        transform: rotate(0deg);
+        transition: transform .5s ease-in-out;
+        cursor: pointer;
+        top: 30px;
+        right: 15px;
+        z-index: 9;
+        background: transparent;
+        border: none;
+    }
+    .navbar-toggler:focus {
+        outline: none;
+    }
+    .navbar-toggler	span {
+        background-color: #fff;
+        display: block;
+        position: absolute;
+        height: 3px;
+        width: 100%;
+        opacity: 1;
+        left: 0;
+        transform: rotate(0deg);
+        transition: transform .25s ease-in-out;
+        background-size: 100%;
+    }
+    .navbar-toggler span:nth-child(1) {
+        top: 0px;
+    }
+    .navbar-toggler span:nth-child(2), .navbar-toggler span:nth-child(3) {
+        top: 6px;
+    }
+    .navbar-toggler span:nth-child(4) {
+        width: 50%;
+        top: 12px;
+        left: 50%;
+    }
+    .menu-animation span:nth-child(1) {
+        top: 18px;
+        width: 0%;
+        left: 50%;
+    }
+    .menu-animation span:nth-child(2) {
+        -webkit-transform: rotate(42deg);
+        transform: rotate(42deg);
+    }
+    .menu-animation span:nth-child(3) {
+        -webkit-transform: rotate(-42deg);
+        transform: rotate(-42deg);
+    }
+    .menu-animation span:nth-child(4) {
+        top: 18px;
+        width: 0%;
+        left: 50%;
+    }
+    .logo-mobile{
+        display: block;
+    }
+    header nav ul li {
+        border-left: 0;
+    }   
+    header .menu {
+        background-color: #E8ECEE;
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+    }
+    header nav {
+        box-sizing: border-box;
+        height: 100%;
+        padding: 25px 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    header nav ul {
+        margin-right: 0;
+        width: 100%;
+        text-align: start;
+        flex-direction: column;
+    }
+    header nav ul li {
+        display: block;
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+    header nav li a {
+        width: 100%;
+        display: block;
+    }
+    header nav ul li a:hover {
+        font-family: 'Conv_FuturaStd-HeavyOblique_0';
+        color: #15A7CE;
+        text-decoration: none;
+    }
+    header img {
+        width: 150px;
+    }
+    .header {
+        padding-bottom: 83px;
+    }
+    
+    .cont-tecnologia {
+        padding-top: 0;
+    }
+    .cont-tecnologia {
+        flex-direction: column-reverse;
+    }
+    .cont-tecnologia article, .cont-tecnologia aside {
+        width: 100%;
+    }
+    .cont-tecnologia article img {
+        margin-bottom: -3px;
+    }
+    .iconos span {
+        margin: 20px;
+    }
+    footer .redes {
+        padding-top: 25px;
+        max-width: 320px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    footer .redes span:last-child {
+        padding-top: 15px;
+    }
+    footer.container {
+        padding-bottom: 20px;
+    }
+    h3 {
+        font-size: 38px;
+    }
+    .cobertura {
+        padding-top: 40px;
+    }
+    .cobertura-latam h3 {
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
+    .que-hacemos {
+        flex-direction: column-reverse;
+    }
+    .titulo {
+        text-align: center;
+        font-size: 40px;
+        padding-bottom: 20px;
+    }
+    .que-hacemos aside, .que-hacemos article, .metodologia aside, .metodologia article {
+        width: 100%;
+    }
+    .que-hacemos aside img {
+        padding-bottom: 20px;
+    }
+    .metodologia {
+        flex-direction: column;
+        padding-bottom: 80px;
+    }
+    .metodologia article {
+        padding-left: 0;
+        padding-top: 30px;
+    }
+    .metodologia p {
+        line-height: 30px;
+        font-size: 18px;
+    }
+    .que-hacemos {
+        padding-bottom: 60px;
+    }
+    .metodologia h4 {
+        padding-bottom: 10px;
+    }
+    h4 {
+        font-size: 20px;
+    }
+    .staff p, .staff .p01, .staff .p02, .staff .p03, .staff .p04 {
+        font-size: 18px;
+    }
+    .staff .titulo h2 {
+        font-size: 48px;
+    }
+    .titulo-staff {
+        flex-direction: column;
+    }
+    h5 {
+        font-size: 30px;
+    }
+    .staff .titulo-staff p {
+        font-size: 24px;
+    }
+    .staff span {
+        padding-bottom: 40px;
+    }
+    .staff {
+        margin: 50px auto;
+    }
+    .seccion-tecnologia {
+        padding: 50px 20px 50px 20px;
+    }
+    .seccion-tecnologia .p03 {
+        font-size: 22px;
+    }
+}
+@media(max-width: 536px) {
+    .tecnologia h1 {
+        font-size: 26px;
+    }
+    .tecnologia h2 {
+        font-size: 25px;
+    }
+    .titulo {
+        font-size: 25px;
+    }
+    .que-hacemos .p01 {
+        font-size: 15px;
+    }
+    .seccion-tecnologia .p03 {
+        font-size: 15px;
+    }
+}
