@@ -37,7 +37,7 @@ function toggleMenuElements() {
   //Fija el header en el scroll
   window.onscroll = function() {fixHeaderOnScroll()};
   var header = document.querySelector('header');
-  var sticky = header.offsetTop;
+  var sticky = header.offsetTop + 300;
   
   function fixHeaderOnScroll() {
     if (window.pageYOffset > sticky) {
