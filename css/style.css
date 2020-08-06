@@ -94,6 +94,9 @@ h5 {
 	font-size: 37px;
 	color: #000;
 }
+a:hover {
+	text-decoration: none;
+}
 img {
 	max-width: 100%;
 }
@@ -166,6 +169,11 @@ img {
 }
 .cont-tecnologia h1, .cont-tecnologia h2 {
 	color: #fff;
+	transition: all .25s;
+}
+.cont-tecnologia:hover h1, .cont-tecnologia:hover h2 {
+	transform: scale(1.04);
+	transition: all .25s;
 }
 /*Fin de seccion tecnologia*/
 /*Sección Clientes*/
