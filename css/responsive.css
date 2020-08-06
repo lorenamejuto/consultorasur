@@ -1,12 +1,12 @@
 @media(max-width: 1500px) {
     h3 {
-        font-size: 63px;
+        font-size: 57px;
     }
     .p01 {
-        font-size: 24px;
+        font-size: 22px;
     }
     .p02 {
-        font-size: 26px;
+        font-size: 24px;
     }
     .cobertura-latam h3 {
         padding-top: 100px;
@@ -23,31 +23,28 @@
         width: 370px;
     }
     .tecnologia h1 {
-        font-size: 50px;
+        font-size: 45px;
         letter-spacing: 11px;
     }
     .tecnologia h2 {
-        font-size: 40px;
+        font-size: 36px;
         letter-spacing: 3px;
     }
     .cont-tecnologia aside {
         padding-top: 60px;
     }
-    .iconos span {
-        width: 180px;
-        height: 180px;
-    }
+
     h3 {
-        font-size: 53px;
+        font-size: 48px;
     }
     .cobertura p {
-        font-size: 18px;
+        font-size: 17px;
     }
     .p01 {
-        font-size: 18px;
+        font-size: 17px;
     }
     .p02 {
-        font-size: 20px;
+        font-size: 18px;
     }
     .cobertura-latam h3 {
         padding-top: 100px;
@@ -70,7 +67,7 @@
         padding-bottom: 40px;
     }
     .titulo {
-        font-size: 52px;
+        font-size: 47px;
         padding-bottom: 50px;
     }
 }
@@ -83,10 +80,10 @@
         width: 300px;
     }
     .tecnologia h1 {
-        font-size: 35px;
+        font-size: 32px;
     }
     .tecnologia h2 {
-        font-size: 27px;
+        font-size: 25px;
         line-height: 50px;
     }
     .cont-tecnologia aside {
@@ -97,19 +94,19 @@
     }
     .titulo {
         padding-bottom: 50px;
-        font-size: 40px;
+        font-size: 36px;
     }
     .servicios .contenedor {
         padding-top: 50px;
     }
     h4 {
-        font-size: 24px;
+        font-size: 22px;
     }
     .metodologia p {
-        font-size: 20px;
+        font-size: 18px;
     }
     .seccion-tecnologia .p03 {
-        font-size: 25px;
+        font-size: 23px;
     }
 
 }
@@ -127,11 +124,9 @@
         width: 100%;
         text-align: center;
     }
-    .iconos span {
-        margin: 20px;
-    }
+
     h3 {
-        font-size: 38px;
+        font-size: 35px;
     }
     .cobertura {
         padding-top: 40px;
@@ -145,7 +140,7 @@
     }
     .titulo {
         text-align: center;
-        font-size: 40px;
+        font-size: 36px;
         padding-bottom: 20px;
     }
     .que-hacemos aside, .que-hacemos article, .metodologia aside, .metodologia article {
@@ -164,7 +159,7 @@
     }
     .metodologia p {
         line-height: 30px;
-        font-size: 18px;
+        font-size: 16px;
     }
     .que-hacemos {
         padding-bottom: 60px;
@@ -173,24 +168,24 @@
         padding-bottom: 10px;
     }
     h4 {
-        font-size: 20px;
+        font-size: 18px;
     }
     .staff p, .staff .p01, .staff .p02, .staff .p03, .staff .p04 {
-        font-size: 18px;
+        font-size: 16px;
         letter-spacing: 3px;
         line-height: 20px;
     }
     .staff .titulo h2 {
-        font-size: 48px;
+        font-size: 44px;
     }
     .titulo-staff {
         flex-direction: column;
     }
     h5 {
-        font-size: 30px;
+        font-size: 27px;
     }
     .staff .titulo-staff p {
-        font-size: 24px;
+        font-size: 22px;
     }
     .staff span {
         padding-bottom: 40px;
@@ -202,26 +197,26 @@
         padding: 50px 20px 50px 20px;
     }
     .seccion-tecnologia .p03 {
-        font-size: 22px;
+        font-size: 20px;
     }
 }
 @media(max-width: 536px) {
     .tecnologia h1 {
-        font-size: 26px;
+        font-size: 24px;
         letter-spacing: 5px;
     }
     .tecnologia h2 {
-        font-size: 25px;
+        font-size: 23px;
         letter-spacing: 2px;
         line-height: 40px;
     }
     .titulo {
-        font-size: 25px;
+        font-size: 23px;
     }
     .que-hacemos .p01 {
-        font-size: 15px;
+        font-size: 14px;
     }
     .seccion-tecnologia .p03 {
-        font-size: 15px;
+        font-size: 14px;
     }
 }

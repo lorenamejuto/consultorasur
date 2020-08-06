@@ -17,12 +17,17 @@
 	<link rel="shortcut icon" href="favicon.png" type="image/png">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
+    
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/header-footer.css">
     <link rel="stylesheet" type="text/css" href="css/responsive.css">
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity=" sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/slick.min.js"></script>
 </head>
 
 <body>
@@ -91,23 +96,63 @@
     <section class="clientes">
         <div class="contenedor">
             <h2>clientes con los que trabajamos</h2>
-            <div class="iconos">
-                <span>
-                    <img src="images/icasa.png" alt="icasa">
-                </span>
-                <span>
-                    <img src="images/abeceb.png" alt="abeceb">
-                </span>
-                <span>
-                    <img src="images/mapfre.png" alt="mapfre">
-                </span>
-                <span>
-                    <img src="images/adt.png" alt="adt">
-                </span>
-                <span>
-                    <img src="images/flacso.png" alt="flacso">
-                </span>
+            <div class="autoplay">
+                <div><img src="images/logos/cliente1.png" alt="cliente"></div>
+                <div><img src="images/logos/cliente2.png" alt="cliente"></div>
+                <div><img src="images/logos/cliente3.png" alt="cliente"></div>
+                <div><img src="images/logos/cliente4.png" alt="cliente"></div>
+                <div><img src="images/logos/cliente5.png" alt="cliente"></div>
+                <div><img src="images/logos/cliente6.png" alt="cliente"></div>
+                <div><img src="images/logos/cliente7.png" alt="cliente"></div>
+                <div><img src="images/logos/cliente8.png" alt="cliente"></div>
+                <div><img src="images/logos/cliente9.png" alt="cliente"></div>
+                <div><img src="images/logos/cliente10.png" alt="cliente"></div>
+                <div><img src="images/logos/cliente11.png" alt="cliente"></div>
+                <div><img src="images/logos/cliente12.png" alt="cliente"></div>
+                <div><img src="images/logos/cliente13.png" alt="cliente"></div>
+                <div><img src="images/logos/cliente14.png" alt="cliente"></div>
+                <div><img src="images/logos/cliente15.png" alt="cliente"></div>
+                <div><img src="images/logos/cliente16.png" alt="cliente"></div>
+                <div><img src="images/logos/cliente17.png" alt="cliente"></div>
+                <div><img src="images/logos/cliente18.png" alt="cliente"></div>
+                <div><img src="images/logos/cliente19.png" alt="cliente"></div>
+                <div><img src="images/logos/cliente20.png" alt="cliente"></div>
+                <div><img src="images/logos/cliente21.png" alt="cliente"></div>
+                <div><img src="images/logos/cliente22.png" alt="cliente"></div>
+                <div><img src="images/logos/cliente23.png" alt="cliente"></div>
+                <div><img src="images/logos/cliente24.png" alt="cliente"></div>
+                <div><img src="images/logos/cliente25.png" alt="cliente"></div>
             </div>
+
+            <script>
+                $('.autoplay').slick({
+                infinite: true,
+                speed: 300,
+                slidesToShow: 5,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 2500,
+                responsive: [
+                    {
+                    breakpoint: 992,
+                    settings: {
+                        slidesToShow: 4,
+                        slidesToScroll: 1,
+                        infinite: true,
+                        dots: true
+                    }
+                    },
+                    {
+                    breakpoint: 536,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 1
+                    }
+                    }
+                ]
+              });
+            </script>
+            </div>  
         </div>
     </section>
 

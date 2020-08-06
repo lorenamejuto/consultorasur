@@ -59,7 +59,7 @@
 }
 body {
 	font-family: 'Conv_FuturaStd-Light_0';
-	font-size: 27px;
+	font-size: 25px;
 	color: #474747;
 }
 body.fixed-body {
@@ -68,30 +68,30 @@ body.fixed-body {
 h1 {
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
-    font-size: 60px;
+    font-size: 54px;
     font-weight: 700;
     letter-spacing: 13px;
 }
 h2 {
 	font-family: 'Conv_FuturaStd-Light_0';
     text-transform: uppercase;
-    font-size: 52px;
+    font-size: 48px;
     letter-spacing: 4px;
 	line-height: 80px;
 }
 h3 {
 	font-family: 'Montserrat', sans-serif;
-	font-size: 76px;
+	font-size: 69px;
 	color: #0099C0;
 	text-transform: uppercase;
 }
 h4 {
 	font-family: 'Conv_FuturaStd-HeavyOblique_0';
-	font-size: 27px;
+	font-size: 25px;
 }
 h5 {
 	font-family: 'Conv_FuturaStd-Light_0';
-	font-size: 37px;
+	font-size: 34px;
 	color: #000;
 }
 a:hover {
@@ -102,21 +102,21 @@ img {
 }
 .p01 {
 	font-family: 'Conv_FuturaStd-BookOblique_0';
-	font-size: 28px;
+	font-size: 26px;
 	color: #474747;
 }
 .p02 {
 	font-family: 'Conv_FuturaStd-Medium_0';
-	font-size: 30px;
+	font-size: 27px;
 	color: #15A7CE;
 }
 .p03 {
 	font-family: 'Conv_FuturaStd-MediumOblique_0';
-	font-size: 27px;
+	font-size: 25px;
 }
 .p04 {
 	font-family: 'Conv_FuturaStd-BoldOblique_0';
-	font-size: 27px;
+	font-size: 25px;
 }
 .bg-celeste {
 	color: #15A7CE;
@@ -190,27 +190,12 @@ img {
 	padding: 70px 15px;
 }
 .clientes h2 {
-	font-size: 28px;
+	font-size: 26px;
 	color: #2B2B2B;
 	line-height: inherit;
 	margin-bottom: 25px;
 }
-.iconos {
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
-	flex-wrap: wrap;
-}
-.iconos span {
-    width: 220px;
-    height: 220px;
-    border-radius: 50%;
-    background-color: #fff;
-    display: flex;
-    justify-content: center;
-	align-items: center;
-	margin: 5px;
-}
+
 /*Fin sección Clientes*/
 /*Cobertura*/
 .cobertura {
@@ -319,10 +304,10 @@ img {
 	display: block;
 }
 .staff .p03 {
-	font-size: 30px;
+	font-size: 27px;
 }
 .texto-espaciado .p02 {
-	font-size: 27px;
+	font-size: 25px;
 	letter-spacing: 7px;
 }
 .texto-espaciado .p03 {
@@ -330,7 +315,7 @@ img {
 } 
 .staff .titulo h2 {
 	color: #474747;
-	font-size: 74px;
+	font-size: 63px;
 	letter-spacing: 14px;
 }
 .staff .titulo {
@@ -346,7 +331,7 @@ img {
 }
 .staff .titulo-staff p {
 	font-family: 'Conv_FuturaStd-HeavyOblique_0';
-	font-size: 27px;
+	font-size: 25px;
 	color: #092B44;
 }
 .staff .titulo-staff img {
@@ -361,7 +346,7 @@ img {
 	margin: 0px auto;
 }
 .seccion-tecnologia .p03 {
-	font-size: 31px;
+	font-size: 27px;
 	color: #333333;
 }
 /*Fin Tecnologia*/
