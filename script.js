@@ -26,7 +26,6 @@ function toggleMenuElements() {
   $(document).ready(function() {
       mobileMenu();
       closeMenuOnAnchor();
-      sectionHeight();
   });
   
   //Funciones que se llaman en el windows resize

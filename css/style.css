@@ -97,6 +97,9 @@ h5 {
 a:hover {
 	text-decoration: none;
 }
+:focus {
+	outline: 0;
+}
 img {
 	max-width: 100%;
 }
@@ -153,6 +156,12 @@ img {
 	background: -webkit-linear-gradient(90deg, rgba(40,47,104,1) 0%, rgba(21,167,206,1) 100%);
 	background: linear-gradient(90deg, rgba(40,47,104,1) 0%, rgba(21,167,206,1) 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#282f68",endColorstr="#15a7ce",GradientType=1);
+	transition: background .50s;
+}
+.tecnologia:hover {
+	background: rgb(102,204,204);
+	background: linear-gradient(90deg, rgba(102,204,204,1) 0%, rgba(190,227,242,1) 100%);
+	transition: background .50s;
 }
 .cont-tecnologia {
 	display: flex;
@@ -169,11 +178,19 @@ img {
 }
 .cont-tecnologia h1, .cont-tecnologia h2 {
 	color: #fff;
-	transition: all .25s;
+	line-height: 60px;
 }
-.cont-tecnologia:hover h1, .cont-tecnologia:hover h2 {
-	transform: scale(1.04);
-	transition: all .25s;
+.cont-tecnologia .boton {
+	font-family: 'Conv_FuturaStd-HeavyOblique_0';
+	color: #fff;
+    border: 1px solid #fff;
+    padding: 5px 20px;
+    font-size: 27px;
+    display: inline-block;
+}
+.cont-tecnologia:hover .boton {
+	color: #092B44;
+    border: 1px solid #092B44;
 }
 /*Fin de seccion tecnologia*/
 /*Sección Clientes*/

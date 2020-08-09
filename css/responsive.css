@@ -22,12 +22,18 @@
     .cont-tecnologia article img {
         width: 370px;
     }
+    .cont-tecnologia article {
+        width: 40%;
+    }
+    .cont-tecnologia aside {
+        width: 55%;
+    }
     .tecnologia h1 {
         font-size: 45px;
         letter-spacing: 11px;
     }
     .tecnologia h2 {
-        font-size: 36px;
+        font-size: 29px;
         letter-spacing: 3px;
     }
     .cont-tecnologia aside {
@@ -81,10 +87,14 @@
     }
     .tecnologia h1 {
         font-size: 32px;
+        line-height: 48px;
     }
     .tecnologia h2 {
         font-size: 25px;
-        line-height: 50px;
+        line-height: 40px;
+    }
+    .cont-tecnologia .boton {
+        font-size: 20px;
     }
     .cont-tecnologia aside {
         padding-top: 30px;
