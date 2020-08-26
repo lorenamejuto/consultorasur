@@ -151,34 +151,43 @@ img {
 /*Fin slider*/
 /*Seccion tecnologia*/
 .tecnologia {
-	background: rgb(40,47,104);
-	background: -moz-linear-gradient(90deg, rgba(40,47,104,1) 0%, rgba(21,167,206,1) 100%);
-	background: -webkit-linear-gradient(90deg, rgba(40,47,104,1) 0%, rgba(21,167,206,1) 100%);
-	background: linear-gradient(90deg, rgba(40,47,104,1) 0%, rgba(21,167,206,1) 100%);
+	background: rgb(102,204,204);
+	background: linear-gradient(90deg, rgba(102,204,204,1) 0%, rgba(190,227,242,1) 100%);
+	transition: background .50s;
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#282f68",endColorstr="#15a7ce",GradientType=1);
 	transition: background .50s;
 }
 .tecnologia:hover {
-	background: rgb(102,204,204);
-	background: linear-gradient(90deg, rgba(102,204,204,1) 0%, rgba(190,227,242,1) 100%);
-	transition: background .50s;
+	background: rgb(40,47,104);
+	background: -moz-linear-gradient(90deg, rgba(40,47,104,1) 0%, rgba(21,167,206,1) 100%);
+	background: -webkit-linear-gradient(90deg, rgba(40,47,104,1) 0%, rgba(21,167,206,1) 100%);
+	background: linear-gradient(90deg, rgba(40,47,104,1) 0%, rgba(21,167,206,1) 100%);
+}
+.tecnologia:hover .cont-tecnologia h2 {
+	color: #fff;
 }
 .cont-tecnologia {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	padding-top: 50px;
+	padding-top: 15px;
 } 
 .cont-tecnologia article {
-	width: 50%;
+	width: 40%;
 }
 .cont-tecnologia aside {
-	width: 50%;
+	width: 60%;
 	padding-top: 30px;
 }
-.cont-tecnologia h1, .cont-tecnologia h2 {
+.cont-tecnologia h1 {
 	color: #fff;
-	line-height: 60px;
+	line-height: 40px;
+	font-size: 50px;
+}
+.cont-tecnologia h2 {
+	color: #1C3D75;
+	line-height: 43px;
+	font-size: 38px;
 }
 .cont-tecnologia .boton {
 	font-family: 'Conv_FuturaStd-HeavyOblique_0';
@@ -230,7 +239,7 @@ img {
 	margin: 0 auto;
 }
 .contenedor-texto-cg {
-	max-width: 650px;
+	max-width: 550px;
 }
 .contenedor-texto-latam {
 	max-width: 650px;
