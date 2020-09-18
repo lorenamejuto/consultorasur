@@ -126,15 +126,19 @@
     }   
     .cont-tecnologia {
         padding-top: 0;
+        max-width: 90%;
+        align-items: flex-end;
     }
-    .cont-tecnologia {
-        flex-direction: column-reverse;
-    }
-    .cont-tecnologia article, .cont-tecnologia aside {
+    .cont-tecnologia article img {
+        max-width: 186px;
         width: 100%;
-        text-align: center;
     }
-
+    .cont-tecnologia article {
+        width: 30%;
+    }
+    .cont-tecnologia aside {
+        width: 70%;
+    }
     h3 {
         font-size: 35px;
     }
@@ -209,16 +213,34 @@
     .seccion-tecnologia .p03 {
         font-size: 20px;
     }
+    .tecnologia h1 {
+        font-size: 27px;
+        line-height: 25px;
+    }
+    .tecnologia h2 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .clientes h2 {
+        font-size: 24px;
+    }
+    .clientes .contenedor {
+        padding: 50px 15px;
+    }
+    .barra-footer h2 {
+        font-size: 30px;
+    }
 }
 @media(max-width: 536px) {
     .tecnologia h1 {
-        font-size: 24px;
-        letter-spacing: 5px;
+        font-size: 16px;
+        letter-spacing: 1.4px;
+        line-height: 16px;
     }
     .tecnologia h2 {
-        font-size: 23px;
+        font-size: 14px;
         letter-spacing: 2px;
-        line-height: 40px;
+        line-height: 19px;
     }
     .titulo {
         font-size: 23px;
